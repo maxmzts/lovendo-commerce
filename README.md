@@ -33,7 +33,9 @@ To set up the project on your local machine, follow these steps:
 3. Import the provided database dump via phpMyAdmin.
 4. Place the project files in the appropriate web directory (e.g., `htdocs` for XAMPP).
 5. Update the `wp-config.php` file with your database credentials.
-6. Start your local server and access the site via `http://localhost/LOVEnDO`.
+6. Install the WooCommerce plugin via [the official Wordpress Page](https://wordpress.org/plugins/woocommerce/) or the admin panel.
+7. Go to Tools > Import and choose "WooCommerce products (CSV)". Upload the `sample_products.csv` file and import the products.
+8. Start your local server and access the site via `http://localhost/lovendo-commerce`.
 
 ## Usage
 

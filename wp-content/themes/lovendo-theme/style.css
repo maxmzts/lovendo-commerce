@@ -1,0 +1,12 @@
+ /*
+ Theme Name:   Lovendo
+ Description:  Tema hijo para mi tienda e-commerce
+ Author:       Máximo Martínez Torres
+ Template:     kiosko
+ Version:      1.0.0
+ Text Domain:  lovendo
+ Tags: e-commerce, four-columns, wide-blocks, block-patterns, block-styles, featured-images, full-site-editing, rtl-language-support, sticky-post, template-editing, threaded-comments, translation-ready
+*/
+
+@import url("../nombre-tema-padre/style.css");
+

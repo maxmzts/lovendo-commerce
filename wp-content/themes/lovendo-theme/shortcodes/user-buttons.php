@@ -25,11 +25,12 @@ function shortcode_botones_usuario() {
         // HTML para usuario no logueado
         ?>
         <div class="botones-usuario-no-logueado">
-            <a href="<?php echo site_url('/login'); ?>" class="boton boton-login">
-                <?php _e('Iniciar sesión', 'botones-usuario'); ?>
+            <a href="<?php echo site_url('/login'); ?>" class="boton boton-login"><!--
+            --><?php _e('Iniciar sesión', 'botones-usuario'); ?>
             </a>
-            <a href="<?php echo site_url('/registro'); ?>" class="boton boton-registro">
-                <?php _e('Registrarse', 'botones-usuario'); ?>
+            
+            <a href="<?php echo site_url('/registro'); ?>" class="boton boton-registro"><!--
+            --><?php _e('Registrarse', 'botones-usuario'); ?>
             </a>
         </div>
         <?php

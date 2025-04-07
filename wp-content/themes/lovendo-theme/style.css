@@ -75,14 +75,16 @@
 .boton-usuario-logueado {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* Estilos para usuario no logueado */
 .botones-usuario-no-logueado .boton {
-    padding: 8px 16px;
+    padding: 12px 16px;
     margin-left: 10px;
-    border-radius: 4px;
+    border-radius: 6px;
     text-decoration: none;
+    font-size: 14px;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -91,20 +93,18 @@
     background: transparent;
     border: 1px solid #ddd;
     color: #333;
-}
-
-.boton-login:hover {
-    background: #f5f5f5;
+    &:hover {
+        background: #f5f5f5;
+    }
 }
 
 .boton-registro {
-    background: #3498db;
+    background: #f78da7;
     color: white;
-    border: 1px solid #3498db;
-}
-
-.boton-registro:hover {
-    background: #2980b9;
+    border: 1px solid #f78da7;
+    &:hover {
+        background: #d48095;
+    }
 }
 
 /* Estilos para usuario logueado */
@@ -116,9 +116,9 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #333;
+    color: #f78da7;
     padding: 8px;
-    border-radius: 4px;
+    border-radius: 6px;
     transition: background 0.3s ease;
 }
 

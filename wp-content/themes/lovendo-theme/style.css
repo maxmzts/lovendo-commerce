@@ -8,5 +8,171 @@
  Tags: e-commerce, four-columns, wide-blocks, block-patterns, block-styles, featured-images, full-site-editing, rtl-language-support, sticky-post, template-editing, threaded-comments, translation-ready
 */
 
-@import url("../nombre-tema-padre/style.css");
+@import url("../kiosko/style.css");
+
+/*   FORMULARIO PARA EL BUZÓN DE SUGERENCIAS   */ 
+
+.formulario-sugerencias-wrapper {
+    background: #f0f0f0;
+    padding: 25px;
+    padding-right: 45px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.required {
+    color: red;
+}
+.submit-group {
+    text-align: right;
+}
+.btn-primary {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #005177;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+
+/*   ESTILOS PARA LOS BOTOTNES DE LOGIN, REGISTRO Y ICONO DE USUARIO   */
+
+/* Estilos comunes */
+.botones-usuario-no-logueado,
+.boton-usuario-logueado {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para usuario no logueado */
+.botones-usuario-no-logueado .boton {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.boton-login {
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.boton-login:hover {
+    background: #f5f5f5;
+}
+
+.boton-registro {
+    background: #3498db;
+    color: white;
+    border: 1px solid #3498db;
+}
+
+.boton-registro:hover {
+    background: #2980b9;
+}
+
+/* Estilos para usuario logueado */
+.boton-usuario-logueado {
+    position: relative;
+}
+
+.perfil-usuario {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.perfil-usuario:hover {
+    background: #f5f5f5;
+}
+
+.icono-usuario {
+    margin-right: 8px;
+}
+
+.boton-usuario-logueado:hover {
+    display: block;
+}
+
+/* Estilo formularios registro y login (cambiar) */
+
+.formulario-registro-personalizado,
+.formulario-login-personalizado {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.input-text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.error-mensaje {
+    color: #e2401c;
+    border-left: 3px solid #e2401c;
+    padding: 10px 15px;
+    background-color: rgba(226, 64, 28, 0.1);
+    margin: 15px 0;
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
 
